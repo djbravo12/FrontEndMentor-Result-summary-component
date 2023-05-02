@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --LightRed: 0deg 100% 67%;
+    --OrangeyYellow: 39deg 100% 56%;
+    --GreenTeal: 166deg 100% 37%;
+    --CobaltBlue: 234deg 85% 45%;
+    --LightSlateBlueBackground: 252deg 100% 67%;
+    --LightRoyalBlueBackground: 241deg 81% 54%;
+    --VioletBlueCircle: 256deg 72% 46%;
+    --PersianBlueCircle: 241deg 72% 46%;
+    --White: 0deg 0% 100%;
+    --PaleBlue: 221deg 100% 96%;
+    --LightLavender: 241deg 100% 89%;
+    --DarkGrayBlue: 224deg 30% 27%;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
